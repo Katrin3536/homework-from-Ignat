@@ -1,0 +1,29 @@
+.someClass {
+    display: flex;
+    flex-direction: row;
+}
+
+.affairItem {
+    padding-left: 5px;
+    margin-bottom: 10px;
+    border: solid grey 1px;
+    border-radius: 3px;
+    width : 250px;
+    height: 25px;
+    background-color:#dfe6e8;
+    box-sizing: border-box;
+}
+.buttonItem {
+    margin-left: 10px;
+    height: 25px;
+    display: flex;
+}
+ .buttonPriority{
+padding: 10px;
+}
+
+ .buttonPriority > button {
+     margin-right: 10px;
+     width : 55px;
+     height: 25px;
+ }
