@@ -1,7 +1,39 @@
-.someClass {
+.error {
+    border: 1px solid red;
+}
+
+.input:focus {
+    border: 2px solid blueviolet;
+}
+
+.input {
+    color: #4d0d6e;
+    background-color: #ecd5f7;
+    outline: none;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #ecd5f7;
+    color: blueviolet;
+}
+
+.button:focus {
+    border: 2px solid blueviolet;
 
 }
 
-.error {
-    border: 1px solid red;
+.errorText {
+    color: red;
+    height: 20px;
+}
+
+.button:disabled {
+    background-color: aquamarine;
+}
+
+.totalUsers {
+    margin-left: 10px;
+    color: blueviolet;
 }
