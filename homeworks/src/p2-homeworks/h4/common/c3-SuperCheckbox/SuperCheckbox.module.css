@@ -1,7 +1,71 @@
-.checkbox {
-
+.spanClassName {
+    color: blueviolet;
+    font-size: 20px;
+    font-family: Verdana;
 }
 
-.spanClassName {
+.label {
+    display: block;
+    margin: 0 0 10px 0;
+    line-height: 22px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+.label input[type=checkbox] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+.label  span {
+    display: inline-block;
+    position: relative;
+    padding: 0 0 0 35px;
+    line-height: 22px;
+}
+.label span:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid blueviolet;
+    box-shadow: inset 0 0 3px #8a8a8a;
 
+}
+.label input[type=checkbox] + span:after {
+    content: "";
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.checkbox-other input[type=checkbox]:checked + span:after {
+    content: "✓";
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    left: 2px;
+    top: -2px;
+    opacity: 1;
+}
+
+.label span:hover:after {
+    filter: brightness(110%);
+}
+
+.label span:active:before,
+.label span:active:after {
+    filter: brightness(80%);
+}
+
+.label input[type=checkbox]:disabled + span:before,
+.label input[type=checkbox]:disabled + span:after {
+    filter: grayscale(100%);
+    opacity: 0.6;
 }

@@ -1,3 +1,9 @@
+.someClass {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .error {
     border: 1px solid red;
 }
@@ -17,6 +23,7 @@
 .button {
     background-color: #ecd5f7;
     color: blueviolet;
+    margin-left: 10px;
 }
 
 .button:focus {
