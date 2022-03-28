@@ -1,3 +1,7 @@
+.checkbox{
+
+}
+
 .spanClassName {
     color: blueviolet;
     font-size: 20px;
@@ -44,7 +48,7 @@
     transition: opacity 0.3s ease;
 }
 
-.checkbox-other input[type=checkbox]:checked + span:after {
+.label input[type=checkbox]:checked + span:after {
     content: "✓";
     color: blueviolet;
     font-size: 30px;
@@ -64,8 +68,4 @@
     filter: brightness(80%);
 }
 
-.label input[type=checkbox]:disabled + span:before,
-.label input[type=checkbox]:disabled + span:after {
-    filter: grayscale(100%);
-    opacity: 0.6;
-}
+
