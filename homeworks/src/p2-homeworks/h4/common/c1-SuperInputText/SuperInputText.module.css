@@ -13,7 +13,8 @@
 
 .superInput:focus {
     color: blueviolet;
-    border: 1px solid blueviolet
+    border: 1px solid blueviolet;
+    online: none;
 }
 
 .errorInput {
