@@ -5,7 +5,12 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-image: url("https://assets.simpleviewinc.com/simpleview/image/fetch/c_limit,q_75,w_1200/https://assets.simpleviewinc.com/simpleview/image/upload/crm/utahvalley/YL-fields-96412d6d5056a36_9641306f-5056-a36a-0b537cd923db681a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

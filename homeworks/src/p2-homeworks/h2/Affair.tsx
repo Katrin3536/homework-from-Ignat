@@ -18,7 +18,7 @@ function Affair(props: AffairPropsType) {
 
         <div className={s.someClass}>
             <div className={s.affairItem}>
-                {props.affair._id}. {props.affair.name}. Priority: {props.affair.priority}
+                {props.affair._id}. {props.affair.name}. <div className={s.priority}>Priority:</div> {props.affair.priority}
             </div>
             <SuperButton onClick={deleteCallback}>X</SuperButton>
         </div>
