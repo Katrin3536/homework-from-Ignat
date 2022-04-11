@@ -1,0 +1,10 @@
+.span {
+    font-size: 20px;
+    color: honeydew;
+    margin-left: 20px;
+}
+
+.span:before {
+    content: "✎";
+    margin-right: 2px;
+}
