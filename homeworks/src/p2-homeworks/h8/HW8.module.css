@@ -1,0 +1,26 @@
+.wrapper_people {
+    display: flex;
+    flex-direction: column;
+}
+
+.people {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 290px;
+}
+
+.superButtons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.finalPeople {
+    display: flex;
+    color: white;
+    margin-top: 2px;
+    font-size: 18px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
