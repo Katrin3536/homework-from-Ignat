@@ -21,6 +21,5 @@
     margin-top: 2px;
     font-size: 18px;
     flex-direction: row;
-    align-items: stretch;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
