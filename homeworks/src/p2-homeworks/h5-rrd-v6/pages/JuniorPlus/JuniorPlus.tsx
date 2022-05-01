@@ -6,10 +6,7 @@ function JuniorPlus() {
         <div className={s.junior_plus}>
             JuniorPlus
             {/*<HW12/>*/}
-            {/*<HW13/>*/}
-            {/*<HW14/>*/}
-            {/*<HW15/>*/}
-            {/*<HW16/>*/}
+
         </div>
     );
 }
