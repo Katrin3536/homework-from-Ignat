@@ -21,3 +21,19 @@
 .some-text {
     color: darkslateblue;
 }
+
+.picture {
+    background-image: url(flower.jpg);
+}
+
+.picture-text {
+    color: cornflowerblue;
+}
+
+.sea {
+    background-image: url(sea.jpg);
+}
+
+.sea-text {
+    color: blue;
+}
